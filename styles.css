@@ -697,8 +697,10 @@ z-index: 2;
 /*FOOTER */
 
 footer {
-    background-color: #6415ff;
+  background-color: rgb(100, 21, 255);
+  padding: 96px 32px;
 }
+
 
 .footer__logo {
     margin-bottom: 20px;
