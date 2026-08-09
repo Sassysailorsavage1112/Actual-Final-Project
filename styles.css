@@ -86,7 +86,8 @@ p{
 .header__customers {
   width: 100%;
   max-width: 400px;
-  margin-top: 16px;
+  display: block;
+  margin: 16px auto 0;
   opacity: 0.5;
 }
 li {
