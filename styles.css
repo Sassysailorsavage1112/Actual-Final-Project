@@ -42,6 +42,21 @@ p{
     font-size: 16px;
 }
 
+.header__img {
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin: 40px auto 0;
+}
+.header__email button {
+  background-color: #6415ff;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 9999px;
+  font-weight: 700;
+  cursor: pointer;
+}
 li {
     list-style: none;
 }
