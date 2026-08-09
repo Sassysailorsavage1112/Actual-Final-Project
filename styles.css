@@ -48,6 +48,24 @@ p{
   display: block;
   margin: 40px auto 0;
 }
+.header__email {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 448px;
+  width: 100%;
+  margin: 32px auto 0;
+  padding: 4px;
+  border: 2px solid #e5e7eb;
+  border-radius: 9999px;
+}
+
+.header__email input {
+  border: none;
+  outline: none;
+  flex: 1;
+  padding: 12px 20px;
+}
 .header__email button {
   background-color: #6415ff;
   color: white;
