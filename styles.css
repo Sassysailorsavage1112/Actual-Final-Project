@@ -822,3 +822,6 @@ transform: translateX(60px);
 opacity: 1;
 }
 
+.purple-features {
+  color: purple;
+}
