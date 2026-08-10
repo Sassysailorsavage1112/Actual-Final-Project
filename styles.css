@@ -139,6 +139,18 @@ li {
   line-height: 1.5;
 }
 
+.btn {
+  background-color: #6415ff;
+  padding: 12px 32px;
+  border: none;
+  border-radius: 500px;
+  font-size: 14px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 32px;
+}
+
 /* NAVIGATION BAR */
 
 nav {
