@@ -314,6 +314,12 @@ padding-top:  8px;
     margin-bottom: 16px;
 }
 
+.header__para {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
 .about-me__info--para {
     font-size: 28px;
     margin-bottom: 28px;
