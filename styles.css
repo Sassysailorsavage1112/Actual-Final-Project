@@ -83,6 +83,11 @@ p{
   color: #a0aec0;
 }
 
+.header__customers--title {
+  text-align: center;
+  width: 100%;
+}
+
 .header__customers {
   width: 100%;
   max-width: 400px;
