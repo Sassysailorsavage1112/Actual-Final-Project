@@ -129,7 +129,15 @@ li {
     margin-bottom: 20px;
   }
 
+  #quality {
+  text-align: center;
+}
 
+.quality__para {
+  max-width: 600px;
+  margin: 16px auto 0;
+  line-height: 1.5;
+}
 
 /* NAVIGATION BAR */
 
@@ -319,6 +327,7 @@ padding-top:  8px;
   margin: 0 auto;
   text-align: center;
 }
+
 
 .about-me__info--para {
     font-size: 28px;
