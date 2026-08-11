@@ -437,6 +437,11 @@ span.text--purple
     text-transform: uppercase;
 }
 
+    .quality__description, .quality__img--wrapper, .steps__description, .steps__img--wrapper, .values__description, .values__img, .testimonials__description, .testimonials__img {
+        width: 100%;
+        max-width: 448px;
+    }
+
 
 
 
