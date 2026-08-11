@@ -265,8 +265,11 @@ span.text--purple
     font-weight: bold;
     color: #243e63;
 }
-
-
+.value__para {
+    margin-top: 16px;
+    line-height: 1.625;
+    color: #718096;
+}
 
 
 
