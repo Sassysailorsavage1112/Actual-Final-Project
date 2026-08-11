@@ -521,6 +521,13 @@ div {
   width: 24px;
   height: 24px;
 }
+.start__title {
+    color: rgb(247, 250, 252);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.5;
+    z-index: 2;
+}
 
 
 
