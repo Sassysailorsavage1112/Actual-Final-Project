@@ -429,7 +429,13 @@ span.text--purple
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
-
+.section__tag {
+    font-size: 16px;
+    color: #6415ff;
+    letter-spacing: 1.6px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
 
 
 
