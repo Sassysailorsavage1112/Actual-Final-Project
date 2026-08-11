@@ -151,6 +151,23 @@ li {
   margin-top: 32px;
 }
 
+.section__tag {
+
+font-size: 16px;
+
+color: #6415ff;
+
+letter-spacing: 1.6px;
+
+font-weight: 700;
+
+text-transform: uppercase;
+
+text-align: center;
+
+}
+
+
 /* NAVIGATION BAR */
 
 nav {
