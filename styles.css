@@ -181,6 +181,16 @@ span.text--purple
     font-family: "Inter", sans-serif;
 }
 
+.step__number
+Specificity: (0,1,0)
+ {
+    color: #cbd5e0;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1;
+}
+
+
 
 
 
