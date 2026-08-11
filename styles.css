@@ -1203,3 +1203,10 @@ opacity: 1;
   margin: 16px auto 0;
   opacity: 0.5;
 }
+@media (min-width: 481px) and (max-width: 768px) {
+  /* tablets only */
+}
+
+@media (max-width: 480px) {
+  /* phones only */
+}
