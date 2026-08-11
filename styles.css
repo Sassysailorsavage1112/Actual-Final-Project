@@ -500,6 +500,11 @@ div {
     font-size: 1.25rem;
     font-weight: 700;
 }
+.testimonial__role {
+    color: rgb(124, 139, 161);
+    font-weight: 500;
+    line-height: 1.5;
+}
 
 
 
