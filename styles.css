@@ -489,6 +489,11 @@ div {
         height: 64px;
         width: 64px;
     }
+    .testimonial__img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
 
 
 
