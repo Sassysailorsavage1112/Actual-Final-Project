@@ -485,6 +485,12 @@ div {
     font-size: 16px;
     color: rgb(74 85 104);
 }
+    .testimonial__img {
+        height: 64px;
+        width: 64px;
+    }
+
+
 
 
 
