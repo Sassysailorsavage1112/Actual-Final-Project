@@ -201,6 +201,12 @@ span.text--purple
     font-weight: 500;
     line-height: 2;
 }
+.step__number {
+    color: #cbd5e0;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1;
+}
 
 
 
