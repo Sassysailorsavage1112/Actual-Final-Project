@@ -442,7 +442,12 @@ span.text--purple
         max-width: 448px;
     }
 
-
+.section__para {
+    font-size: 18px;
+    font-weight: 500;
+    color: #7c8ba1;
+    line-height: 1.625;
+}
 
 
 
