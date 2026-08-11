@@ -188,6 +188,22 @@ span.text--purple
     font-weight: 600;
     line-height: 1;
 }
+.step__title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #243e63;
+    line-height: 1;
+}
+.step__para {
+    font-size: 14px;
+    color: #718096;
+    margin-top: 12px;
+    font-weight: 500;
+    line-height: 2;
+}
+
+
+
 
 
 
