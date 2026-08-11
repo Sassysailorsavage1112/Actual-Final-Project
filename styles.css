@@ -494,6 +494,12 @@ div {
     height: 80px;
     border-radius: 50%;
 }
+.testimonial__name {
+    color: rgb(74, 85, 104);
+    line-height: 1.625;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
 
 
 
