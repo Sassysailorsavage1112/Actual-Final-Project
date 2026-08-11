@@ -239,6 +239,13 @@ span.text--purple
     font-weight: 500;
     line-height: 2;
 }
+.section__tag {
+    font-size: 16px;
+    color: #6415ff;
+    letter-spacing: 1.6px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
 
 
 
