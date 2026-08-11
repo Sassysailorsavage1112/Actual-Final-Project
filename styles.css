@@ -505,6 +505,20 @@ div {
     font-weight: 500;
     line-height: 1.5;
 }
+.testimonial__buttons {
+        margin-top: 32px;
+    }
+    .testimonial__buttons {
+    display: flex;
+    align-items: center;
+}
+
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+    color: rgb(36, 62, 99);
+    margin: 0px;
+    padding: 0px;
+
 
 
 
