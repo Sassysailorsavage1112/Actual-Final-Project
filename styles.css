@@ -472,6 +472,19 @@ div {
     font-family: "Inter", sans-serif;
     color: #243e63;
  }
+     .testimonial__para {
+        margin-bottom: 32px;
+    }
+
+   
+.testimonial__para {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-weight: 500;
+    line-height: 1.625;
+    font-size: 16px;
+    color: rgb(74 85 104);
+}
 
 
 
