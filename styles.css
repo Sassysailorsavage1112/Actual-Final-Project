@@ -323,7 +323,35 @@ span.text--purple
     font-family: "Inter", sans-serif;
     color: #243e63;
 }
+.plan:nth-child(odd) .plan__name, .plan:nth-child(odd) .plan__price, .plan:nth-child(odd) .plan__target {
+    color: #1a202c;
+}
 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    color: #243e63;
+}
+
+.plan:nth-child(odd) .plan__name, .plan:nth-child(odd) .plan__price, .plan:nth-child(odd) .plan__target {
+    color: #1a202c;
+}
+
+.plan:nth-child(odd) .plan__duration {
+    color: #a0aec0;
+}
+.plan:nth-child(odd) .plan__name, .plan:nth-child(odd) .plan__price, .plan:nth-child(odd) .plan__target {
+    color: #1a202c;
+}
+.plan__feature {
+    margin-top: 20px;
+    font-weight: 500;
+    color: #718096;
+    font-size: 16px;
+    line-height: 1.5;
+}
 
 
 
