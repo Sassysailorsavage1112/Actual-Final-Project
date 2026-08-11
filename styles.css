@@ -168,6 +168,23 @@ text-align: center;
 }
 
 
+purple {
+    color: #6415ff;
+}
+
+span.text--purple
+{
+    color: #6415ff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+
+
+
+
 /* NAVIGATION BAR */
 
 nav {
