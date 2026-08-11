@@ -373,6 +373,10 @@ span.text--purple
     background: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
 }
 
+.plan:nth-child(2) .plan__name, .plan:nth-child(2) .plan__price, .plan:nth-child(2) .plan__target, .plan:nth-child(2) .plan__duration, .plan:nth-child(2) .plan__feature {
+    color: #f7fafc;
+}
+
 .plans svg {
     z-index: -10;
     position: absolute;
