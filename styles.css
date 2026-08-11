@@ -354,7 +354,19 @@ span.text--purple
     background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
 }
 
-
+.plan__button {
+  background-color: rgb(100, 21, 255);
+  color: rgb(247, 250, 252);
+  width: 100%;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transition: all 300ms ease;
+}
 
 
 .plan:nth-child(2) {
@@ -414,7 +426,7 @@ span.text--purple
     padding-bottom: 2rem;
 }
 
-}
+
 
 
 
