@@ -59,6 +59,26 @@ p{
   border: 2px solid #e5e7eb;
   border-radius: 9999px;
 }
+header .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.header__description {
+  width: 40%;
+}
+
+.header__img--wrapper {
+  width: 60%;
+}
+
+.header__img {
+  width: 100%;
+  max-width: 600px;
+  margin: 0;
+}
 
 .header__email input {
   border: none;
@@ -298,6 +318,13 @@ span.text--purple
     letter-spacing: 1.6px;
     font-weight: 700;
     text-transform: uppercase;
+}
+.header__img--wrapper {
+
+display: flex;
+
+justify-content: flex-end;
+
 }
 
 .plan:nth-child(1) .plan__stripe, .plan:nth-child(1) .plan__button {
