@@ -524,11 +524,13 @@ div {
 .start__title {
     color: rgb(247, 250, 252);
     font-size: 30px;
+    background-color: rgb(100, 21, 255);
+    padding: 16px 32px;
+    border-radius: 8px;
     font-weight: 700;
     line-height: 1.5;
     z-index: 2;
 }
-
 
 
 
