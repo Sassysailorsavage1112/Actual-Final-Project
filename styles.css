@@ -92,7 +92,6 @@ header .row {
   max-width: 600px;
   margin: 0;
 }
-
 .header__email {
   display: flex;
   align-items: center;
@@ -102,6 +101,13 @@ header .row {
   border: 2px solid #e5e7eb;
   border-radius: 9999px;
   padding: 4px;
+}
+.header__email--input {
+  border: none;
+  outline: none;
+  flex: 1;
+  padding: 16px 24px;
+  border-radius: 9999px;
 }
 
 .header__email button {
