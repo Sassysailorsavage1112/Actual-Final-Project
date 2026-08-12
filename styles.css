@@ -60,16 +60,7 @@ header {
   width: 50%;
 }
 
-.header__img {
-  width: 100%;
-}
 
-.header__img {
-  width: 100%;
-  max-width: 600px;
-  display: block;
-  margin: 40px auto 0;
-}
 .header__email--btn {
   height: calc(100% - 16px);
   border-radius: 500px;
@@ -102,13 +93,17 @@ header .row {
   margin: 0;
 }
 
-.header__email--input {
-  border: none;
-  border-radius: 500px;
-  outline: none;
-  flex: 1;
-  padding: 12px 20px;
+.header__email {
+  display: flex;
+  align-items: center;
+  max-width: 448px;
+  width: 100%;
+  margin-top: 32px;
+  border: 2px solid #e5e7eb;
+  border-radius: 9999px;
+  padding: 4px;
 }
+
 .header__email button {
   background-color: #6415ff;
   color: white;
