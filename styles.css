@@ -18,7 +18,7 @@
  
  
 body {
-  background-color: lightblue;
+  background-color: white;
 }
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto+Flex:opsz,wght,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,100..1000,96,468,79,-203,738,514,712&family=Roboto:wdth,wght@87.5,300&display=swap');
 
@@ -43,23 +43,44 @@ p{
     font-size: 16px;
 }
 
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 32px;
+}
+
+.header__description {
+  width: 50%;
+}
+
+.header__img--wrapper {
+  width: 50%;
+}
+
+.header__img {
+  width: 100%;
+}
+
 .header__img {
   width: 100%;
   max-width: 600px;
   display: block;
   margin: 40px auto 0;
 }
-.header__email {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 448px;
-  width: 100%;
-  margin: 32px auto 0;
-  padding: 4px;
-  border: 2px solid #e5e7eb;
-  border-radius: 9999px;
+.header__email--btn {
+  height: calc(100% - 16px);
+  border-radius: 500px;
+  border: none;
+  background-color: #6415ff;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  transition: all 300ms ease;
 }
+
 header .row {
   display: flex;
   align-items: center;
@@ -81,8 +102,9 @@ header .row {
   margin: 0;
 }
 
-.header__email input {
+.header__email--input {
   border: none;
+  border-radius: 500px;
   outline: none;
   flex: 1;
   padding: 12px 20px;
