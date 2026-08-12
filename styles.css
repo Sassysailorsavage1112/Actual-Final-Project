@@ -756,6 +756,10 @@ padding-top:  8px;
   text-align: center;
 }
 
+.head--description {
+text-align: center;
+}
+
 
 .about-me__info--para {
     font-size: 28px;
