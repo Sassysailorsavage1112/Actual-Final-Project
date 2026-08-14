@@ -1315,3 +1315,8 @@ opacity: 1;
 @media (max-width: 480px) {
   /* phones only */
 }
+@media (max-width: 1024px) {
+  header {
+    flex-direction: column;
+  }
+}
