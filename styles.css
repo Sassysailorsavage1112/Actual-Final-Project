@@ -1381,11 +1381,4 @@ opacity: 1;
     display: block;
   }
 
-  .nav__links.menuOpen {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 80px;
-    right: 40px;
-  }
 }
