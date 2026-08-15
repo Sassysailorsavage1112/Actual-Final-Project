@@ -1,7 +1,7 @@
-const menuButton = document.querySelector(".fa-bars");
+function openMenu() {
+  document.body.classList.add("menu--open");
+}
 
-const navLinks = document.querySelector(".nav__links");
-
-menuButton.addEventListener("click", function () {
-  navLinks.classList.toggle("menuOpen");
-});
+function closeMenu() {
+  document.body.classList.remove("menu--open");
+}

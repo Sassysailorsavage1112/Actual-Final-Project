@@ -10,22 +10,41 @@
 <body>
 
     <section id="landing">
-        <nav>
-            <a class="nav__logo" href="#">
-                <img class="nav__logo--img" src="./assets/logo.2c489fc453a1783cbadacf914efa3df6.svg" alt="Treact logo" />
-                <span class="nav__logo--text">Treact</span>
-            </a>
-            <div class="nav__links">
-                <a href="#" class="nav__link">About</a>
-                <a href="#" class="nav__link">Blog</a>
-                <a href="#" class="nav__link">Pricing</a>
-                <a href="#" class="nav__link">Contact Us</a>
-                <a href="#" class="nav__link">Login</a>
-                <a href="#" class="nav__link nav__link--primary">Sign Up</a>
-            </div>
-            <i class="fa-solid fa-bars btn__menu" style="color: rgb(144, 167, 165);"></i>
-</nav>
+     <nav>
+  <div class="row nav__row">
+    <div class="nav__logo">
+      <img class="nav__logo--img" src="./assets/logo.2c489fc453a1783cbadacf914efa3df6.svg" alt="LOGO" />
+      <div class="nav__logo--title">Treact</div>
+    </div>
 
+    <div class="nav__links">
+      <a href="#" class="nav__link">About</a>
+      <a href="#" class="nav__link">Blog</a>
+      <a href="#" class="nav__link">Pricing</a>
+      <a href="#" class="nav__link">Contact Us</a>
+      <a href="#" class="nav__link login">Login</a>
+      <a href="#" class="nav__link nav__link--primary">Sign Up</a>
+    </div>
+
+    <button class="btn__menu" onclick="openMenu()">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+  </div>
+</nav>
+<div class="modal">
+  <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+    <i class="fa-solid fa-xmark"></i>
+  </button>
+
+  <div class="modal__links">
+    <a class="modal__link">About</a>
+    <a class="modal__link">Blog</a>
+    <a class="modal__link">Pricing</a>
+    <a class="modal__link">Contact Us</a>
+    <a class="modal__link">Login</a>
+    <a class="modal__link modal__link--primary">Sign Up</a>
+  </div>
+</div>
         <header>
   <div class="header__description">
     <h1 class="about-me__info--title">
