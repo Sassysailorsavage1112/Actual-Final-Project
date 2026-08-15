@@ -676,6 +676,12 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
+.nav__row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .nav__link--list {
     display: flex;
@@ -705,8 +711,56 @@ transition:all 300ms ease;
 
 .btn__menu {
   display: none;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  margin-left: auto;
 }
 
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 378px;
+  margin: 24px 16px;
+  padding: 32px;
+  background-color: white;
+  border: 1px solid rgb(229, 231, 235);
+  border-radius: 8px;
+  z-index: 100;
+  visibility: hidden;
+  opacity: 0;
+  transform: translateX(300%);
+  transition: all 300ms ease;
+}
+
+.menu--open .modal {
+  visibility: visible;
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.modal__links {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal__link {
+  color: #1a202c;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 8px 0;
+}
+
+.btn__menu--close {
+  position: fixed;
+  top: 24px;
+  right: 18px;
+}
 
 .personal__logo {
     font-size:24px;
