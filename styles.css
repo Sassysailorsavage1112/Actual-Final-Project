@@ -136,6 +136,7 @@ header {
   width: 100%;
 }
 
+
 .header__customers {
   width: 100%;
   max-width: 400px;
@@ -143,6 +144,9 @@ header {
   margin: 16px auto 0;
   opacity: 0.5;
 }
+
+
+
 li {
     list-style: none;
 }
@@ -1318,5 +1322,15 @@ opacity: 1;
 @media (max-width: 1024px) {
   header {
     flex-direction: column;
+  }
+}
+
+@media (max-width: 1024px) {
+  .nav__links {
+    display: none;
+  }
+
+  .btn__menu {
+    display: block;
   }
 }
