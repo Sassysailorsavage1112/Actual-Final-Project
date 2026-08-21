@@ -1,3 +1,916 @@
+
+Yesterday
+👀
+
+✅
+
+🙌
+
+
+
+profile
+Sammie Adams
+
+Aug 20, 23:08
+
+is there a reason why I'm not able to extract the assets to my assets folder? I will download those extensions now
+
+
+👀
+
+✅
+
+🙌
+
+
+
+Aug 20, 23:10
+
+hmmm not seeing that first one but which of the second one's options should I go with
+
+
+Image attachment
+Image attachment
+👀
+
+✅
+
+🙌
+
+
+profile
+Omair - Mentor
+
+Aug 20, 23:12
+
+it's this one
+
+
+Image attachment
+👀
+
+✅
+
+🙌
+
+
+Aug 20, 23:12
+
+and auto rename tag is the first one in the second image you shared
+
+
+👀
+
+✅
+
+🙌
+
+
+Aug 20, 23:13
+
+could you take a screenshot of your code and file structure please so that I could understand better what's going on
+
+
+Sammie   Adams 
+Sammie Adams
+
+is there a reason why I'm not able to extract the assets to my assets folder? I will download those extensions now
+
+11:08 PM
+|
+View message
+👀
+
+✅
+
+🙌
+
+
+
+profile
+Sammie Adams
+
+Aug 20, 23:14
+
+So when I try to extract the files from the assets folder on the website I'm trying to clone it doesn't give me the option to extract the assets folder into my files
+
+
+Image attachment
+👀
+
+✅
+
+🙌
+
+
+profile
+Omair - Mentor
+
+Aug 20, 23:15
+
+ah okay, actually you can't extract the assets folder from there, you need to download them from the course material and you should be all set once you add them!
+
+
+👀
+
+✅
+
+🙌
+
+
+
+profile
+Sammie Adams
+
+Aug 20, 23:16
+
+It let me do it on the other device...
+
+
+👀
+
+✅
+
+🙌
+
+
+
+Aug 20, 23:16
+
+plus I'm not seeing anywhere I can download them in the modules
+
+
+👀
+
+✅
+
+🙌
+
+
+profile
+Omair - Mentor
+
+Aug 20, 23:17
+
+you should be able to open it in here under course material
+
+
+Image attachment
+👀
+
+✅
+
+🙌
+
+
+
+profile
+Sammie Adams
+
+Aug 20, 23:21
+
+Thank you!
+
+
+👀
+
+✅
+
+🙌
+
+
+profile
+Omair - Mentor
+
+Aug 20, 23:22
+
+for sure you're most welcome!
+
+
+👀
+
+✅
+
+🙌
+
+
+
+profile
+Sammie Adams
+
+Aug 20, 23:23
+
+can you send me the zoom links for the meetings coming up?
+
+
+👀
+
+✅
+
+🙌
+
+
+profile
+Omair - Mentor
+
+Aug 20, 23:23
+
+you should be able to see the popup to the bottom left with a join zoom button
+
+
+👀
+
+✅
+
+🙌
+
+
+
+profile
+Sammie Adams
+
+Aug 20, 23:23
+
+thank you!
+
+
+👀
+
+✅
+
+🙌
+
+
+
+Aug 20, 23:24
+
+I just hope I stay connected
+
+
+👀
+
+✅
+
+🙌
+
+
+
+Aug 20, 23:24
+
+I wanted to join from my phone because last time we got disconnected
+
+
+👀
+
+✅
+
+🙌
+
+
+profile
+Omair - Mentor
+
+Aug 20, 23:25
+
+no worries I highly recommend you join from your laptop actually
+
+
+👀
+
+✅
+
+🙌
+
+
+
+profile
+Sammie Adams
+
+Aug 20, 23:25
+
+I understand I am just trying to avoid getting disconnected this time
+
+
+👀
+
+✅
+
+🙌
+
+
+profile
+Omair - Mentor
+
+Aug 20, 23:26
+
+no worries even if you get disconnected you can still re-join you're good no worries!
+
+
+👀
+
+✅
+
+🙌
+
+
+profile
+Omair - Mentor
+
+Aug 20, 23:50
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/6487f0a3d4.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Treact</title>
+  </head>
+  <body>
+    <section id="landing">
+      <nav>
+        <div class="row nav__row">
+          <div class="nav__logo">
+            <img
+              class="nav__logo--img"
+              src="./assets/logo.2c489fc453a1783cbadacf914efa3df6.svg"
+              alt="Treact logo"
+            />
+            <div class="nav__logo--title">Treact</div>
+          </div>
+
+          <div class="nav__links">
+            <a href="#" class="nav__link">About</a>
+            <a href="#" class="nav__link">Blog</a>
+            <a href="#" class="nav__link">Pricing</a>
+            <a href="#" class="nav__link">Contact Us</a>
+            <a href="#" class="nav__link login">Login</a>
+            <a href="#" class="nav__link nav__link--primary">Sign Up</a>
+          </div>
+
+          <button
+            type="button"
+            class="btn__menu"
+            onclick="openMenu()"
+            aria-label="Open menu"
+          >
+            <i class="fa-solid fa-bars" aria-hidden="true"></i>
+          </button>
+        </div>
+      </nav>
+      <div class="modal">
+        <button
+          type="button"
+          class="btn__menu btn__menu--close"
+          onclick="closeMenu()"
+          aria-label="Close menu"
+        >
+          <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+        </button>
+
+        <div class="modal__links">
+          <a href="#" class="modal__link">About</a>
+          <a href="#" class="modal__link">Blog</a>
+          <a href="#" class="modal__link">Pricing</a>
+          <a href="#" class="modal__link">Contact Us</a>
+          <a href="#" class="modal__link">Login</a>
+          <a href="#" class="modal__link modal__link--primary">Sign Up</a>
+        </div>
+      </div>
+      <header>
+        <div class="header__description">
+          <h1 class="about-me__info--title">
+            Beautiful React Templates <span class="text--purple">for you.</span>
+          </h1>
+
+          <p class="header__para">
+            Our templates are easy to setup, understand and customize.
+          </p>
+
+          <div class="header__email">
+            <input
+              type="email"
+              class="header__email--input"
+              placeholder="Your E-mail Address"
+            />
+            <button type="button" class="header__email--btn">
+              Get Started
+            </button>
+          </div>
+
+          <p class="header__customers--title">OUR TRUSTED CUSTOMERS</p>
+
+          <img
+            src="./assets/customers-logo-strip.680ac7c2e8ae28161d2c.png"
+            class="header__customers"
+            alt="Trusted customers"
+          />
+        </div>
+        <div class="header__img--wrapper">
+          <img
+            src="./assets/design-illustration-2.6da6a00b20c07c4a9b65d1870679e1b8.svg"
+            class="header__img"
+            alt="Design illustration"
+          />
+        </div>
+      </header>
+    </section>
+
+    <section id="features">
+      <div class="container">
+        <div class="row__narrow">
+          <h4 class="section__tag">FEATURES</h4>
+
+          <h2 class="section__title">
+            We Have Amazing <span class="purple">Service.</span>
+          </h2>
+
+          <div class="section__para">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </div>
+
+          <div class="features">
+            <div class="feature">
+              <div class="feature__row">
+                <figure class="feature__img--wrapper">
+                  <img
+                    src="./assets/shield-icon.daefe14b320b14fbd9cbd18908ac93ec.svg"
+                    class="feature__img"
+                    alt="Security shield"
+                  />
+                </figure>
+
+                <div class="feature__text">
+                  <h2 class="feature__title">Secure</h2>
+
+                  <p class="feature__para">
+                    Lorem ipsum donor amet siti ceali ut enim ad minim veniam,
+                    quis nostrud.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="feature">
+              <div class="feature__row">
+                <figure class="feature__img--wrapper">
+                  <img
+                    src="./assets/support-icon.f9253ffa8cb6ffde5bbaa05eb5136375.svg"
+                    class="feature__img"
+                    alt="Support headset"
+                  />
+                </figure>
+
+                <div class="feature__text">
+                  <h2 class="feature__title">24/7 Support</h2>
+
+                  <p class="feature__para">
+                    Lorem ipsum donor amet siti ceali ut enim ad minim veniam,
+                    quis nostrud.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="feature">
+              <div class="feature__row">
+                <figure class="feature__img--wrapper">
+                  <img
+                    src="/assets/customize-icon.367468c90fd796009b97fbfba67b2c6a.svg"
+                    class="feature__img"
+                    alt="Customization tools"
+                  />
+                </figure>
+
+                <div class="feature__text">
+                  <h2 class="feature__title">Customizable</h2>
+
+                  <p class="feature__para">
+                    Lorem ipsum donor amet siti ceali ut enim ad minim veniam,
+                    quis nostrud.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="feature">
+              <div class="feature__row">
+                <figure class="feature__img--wrapper">
+                  <img
+                    src="/assets/reliable-icon.1367510a8f0a1bec76dc425d25f92f43.svg"
+                    class="feature__img"
+                    alt="Reliable check mark"
+                  />
+                </figure>
+
+                <div class="feature__text">
+                  <h2 class="feature__title">Reliable</h2>
+
+                  <p class="feature__para">
+                    Lorem ipsum donor amet siti ceali ut enim ad minim veniam,
+                    quis nostrud.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="feature">
+              <div class="feature__row">
+                <figure class="feature__img--wrapper">
+                  <img
+                    src="/assets/fast-icon.dbb971a73d4805d2fc3bcdacdb55beba.svg"
+                    class="feature__img"
+                    alt="Fast lightning bolt"
+                  />
+                </figure>
+
+                <div class="feature__text">
+                  <h2 class="feature__title">Fast</h2>
+
+                  <p class="feature__para">
+                    Lorem ipsum donor amet siti ceali ut enim ad minim veniam,
+                    quis nostrud.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="feature">
+              <div class="feature__row">
+                <figure class="feature__img--wrapper">
+                  <img
+                    src="/assets/simple-icon.673b7e1750b2a4ef32907fc164828d00.svg"
+                    class="feature__img"
+                    alt="Simple interface"
+                  />
+                </figure>
+
+                <div class="feature__text">
+                  <h2 class="feature__title">Easy</h2>
+
+                  <p class="feature__para">
+                    Lorem ipsum donor amet siti ceali ut enim ad minim veniam,
+                    quis nostrud.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="quality">
+      <img
+        src="./assets/hero-screenshot-1.40a097b525c2f8c9808e.png"
+        alt="Treact website displayed"
+      />
+
+      <h3 class="text--purple">Quality Work</h3>
+
+      <h2>
+        Designed &amp; Developed by
+        <span class="text--purple">Professionals.</span>
+      </h2>
+
+      <p class="quality__para">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      </p>
+      <button type="button" class="btn">Learn More</button>
+    </section>
+
+    <section id="languages">
+      <div class="container">
+        <div class="row">
+          <div class="language"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <div class="row">
+          <h1 class="section__title">
+            We have Amazing <span class="text--purple">Service:</span>
+          </h1>
+          <div class="section__para">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </div>
+
+          <div class="section__tag">STEPS</div>
+          <h2 class="section__title">
+            Easy to <span class="text--purple">Get Started.</span>
+          </h2>
+
+          <div class="step">
+            <div class="step__number">01</div>
+            <div class="step__title">Register</div>
+            <p class="step__para">
+              Create an account with us using Google or Facebook.
+            </p>
+          </div>
+
+          <div class="step">
+            <div class="step__number">02</div>
+            <div class="step__title">Download</div>
+            <p class="step__para">
+              Browse and Download the template that you like from the
+              marketplace.
+            </p>
+          </div>
+
+          <div class="step">
+            <div class="step__number">03</div>
+            <div class="step__title">Run</div>
+            <p class="step__para">
+              Follow the instructions to setup and customize the template to
+              your needs.
+            </p>
+          </div>
+
+          <img
+            class="values__img"
+            src="./assets/prototype-illustration.21bc4b3f612a2f257c3d361067582485.svg"
+            alt="Prototype illustration"
+          />
+
+          <div class="section__tag">VALUES</div>
+          <h2 class="section__title">
+            We Always Abide by Our <span class="purple">Principles.</span>
+          </h2>
+          <div class="section__para">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </div>
+
+          <div class="value">
+            <i
+              class="fa-solid fa-dollar-sign value__icon value__icon--affordable"
+              aria-hidden="true"
+            ></i>
+            <div class="value__name">Affordable</div>
+            <div class="value__para">
+              We promise to offer you the best rate we can - at par with the
+              industry standard.
+            </div>
+          </div>
+
+          <div class="value">
+            <i
+              class="fa-solid fa-briefcase value__icon value__icon--professional"
+              aria-hidden="true"
+            ></i>
+            <div class="value__name">Professionalism</div>
+            <div class="value__para">
+              We assure you that our templates are designed and created by
+              professional designers.
+            </div>
+          </div>
+
+          <button type="button" class="btn">Learn More</button>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="section__tag">pricing</div>
+          <h2 class="section__title">
+            Reasonable &amp; Flexible <span class="purple">Plans.</span>
+          </h2>
+          <p class="section__para">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <div class="plans">
+            <div class="plan">
+              <div class="plan__stripe"></div>
+              <div class="plan__top">
+                <div class="plan__name">PERSONAL</div>
+                <div class="plan__price">$17.99</div>
+                <div class="plan__duration">MONTHLY</div>
+              </div>
+              <div class="plan__middle">
+                <div class="plan__target">For Individuals</div>
+                <p class="plan__feature">30 Templates</p>
+                <p class="plan__feature">7 Landing Pages</p>
+                <p class="plan__feature">12 Internal Pages</p>
+                <p class="plan__feature">Basic Assistance</p>
+              </div>
+              <div class="plan__bottom">
+                <button type="button" class="plan__button">buy now</button>
+              </div>
+            </div>
+
+            <div class="plan">
+              <div class="plan__stripe"></div>
+              <div class="plan__top">
+                <div class="plan__name">BUSINESS</div>
+                <div class="plan__price">$37.99</div>
+                <div class="plan__duration">MONTHLY</div>
+              </div>
+              <div class="plan__middle">
+                <div class="plan__target">For Small Businesses</div>
+                <p class="plan__feature">60 Templates</p>
+                <p class="plan__feature">15 Landing Pages</p>
+                <p class="plan__feature">22 Internal Pages</p>
+                <p class="plan__feature">Priority Assistance</p>
+              </div>
+              <div class="plan__bottom">
+                <button type="button" class="plan__button">buy now</button>
+              </div>
+            </div>
+
+            <div class="plan">
+              <div class="plan__stripe"></div>
+              <div class="plan__top">
+                <div class="plan__name">ENTERPRISE</div>
+                <div class="plan__price">$57.99</div>
+                <div class="plan__duration">MONTHLY</div>
+              </div>
+              <div class="plan__middle">
+                <div class="plan__target">For Large Companies</div>
+                <p class="plan__feature">90 Templates</p>
+                <p class="plan__feature">27 Landing Pages</p>
+                <p class="plan__feature">37 Internal Pages</p>
+                <p class="plan__feature">Personal Assistance</p>
+              </div>
+              <div class="plan__bottom">
+                <button type="button" class="plan__button">buy now</button>
+              </div>
+            </div>
+
+            <svg
+              width="600"
+              height="600"
+              viewBox="0 0 600 600"
+              xmlns="http://www.w3.org/2000/svg"
+              class="plans__blob"
+            >
+              <g transform="translate(300,300)">
+                <path
+                  d="M82,-98.3C129.8,-57.7,208.2,-54.1,229.6,-26.6C251.1,1,215.6,52.5,172.9,74.9C130.2,97.2,80.3,90.4,37.8,107.5C-4.8,124.7,-40,165.7,-63.3,162.3C-86.5,158.8,-97.8,110.9,-109.3,72.2C-120.7,33.5,-132.2,4.1,-140.1,-37.4C-147.9,-79,-152.1,-132.6,-128.1,-177.3C-104.1,-222.1,-52.1,-258,-17.5,-237.2C17.1,-216.4,34.3,-138.9,82,-98.3Z"
+                  fill="#FFB4BC"
+                ></path>
+              </g>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials">
+      <div class="container">
+        <div class="row">
+          <img
+            src="./assets/love-illustration.c759090fa833369ad6ffb6eb19cacb3e.svg"
+            alt=""
+            class="testimonials__img"
+          />
+          <div class="section__tag">testimonials</div>
+          <h2 class="section__title">
+            Our Clients <span class="purple">Love Us.</span>
+          </h2>
+          <p class="section__para">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad
+            minim veniam.
+          </p>
+
+          <div class="testimonial">
+            <div class="testimonial__rating">
+              <i class="fas fa-star" aria-hidden="true"></i>
+              <i class="fas fa-star" aria-hidden="true"></i>
+              <i class="fas fa-star" aria-hidden="true"></i>
+              <i class="fas fa-star" aria-hidden="true"></i>
+              <i class="fas fa-star" aria-hidden="true"></i>
+            </div>
+            <h3 class="testimonial__title">Amazing User Experience</h3>
+            <p class="testimonial__para">
+              Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+              cupidatat non proident, sunt in culpa qui officia. Lorem ipsum
+              dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+              veniam, quis nostrud exercitation ullamco.
+            </p>
+
+            <div class="testimonial__bottom">
+              <div class="testimonial__profile">
+                <img
+                  src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3.25&w=512&h=512&q=80"
+                  class="testimonial__img"
+                  alt="Charlotte Hale"
+                />
+                <div class="testimonial__details">
+                  <div class="testimonial__name">Charlotte Hale</div>
+                  <div class="testimonial__role">Director, Delos Inc.</div>
+                </div>
+              </div>
+
+              <div class="testimonial__buttons">
+                <button
+                  type="button"
+                  class="testimonial__button"
+                  aria-label="Previous testimonial"
+                >
+                  <svg
+                    fill="none"
+                    stroke="rgb(100, 21, 255)"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
+                  </svg>
+                </button>
+                <button
+                  type="button"
+                  class="testimonial__button"
+                  aria-label="Next testimonial"
+                >
+                  <svg
+                    fill="none"
+                    stroke="rgb(100, 21, 255)"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+
+            <div class="start__title">
+              <p>Developers all over the world are happily using Treact.</p>
+              <div class="start__buttons">
+                <button type="button" class="start__button btn">
+                  Get Started
+                </button>
+                <button type="button" class="start__button btn">
+                  Contact Us
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="row footer__row">
+        <a
+          href="https://www.sailboat.com"
+          target="_blank"
+          class="footer__social--link link__hover-effect link__hover-effect--white"
+          aria-label="Sailboat"
+        >
+          <i class="fab fa-sailboat"></i>
+        </a>
+        <a
+          href="mailto:sammie.adams112@gmail.com"
+          target="_blank"
+          class="footer__social--link link__hover-effect link__hover-effect--white"
+          aria-label="Email"
+        >
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+        <a
+          href="mailto:sammie.adams112@gmail.com"
+          target="_blank"
+          class="footer__social--link link__hover-effect link__hover-effect--white"
+          download
+        >
+          Resume
+        </a>
+      </div>
+      <p>&copy; 2026 Treact. All rights reserved.</p>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
+
+
+
+👀
+
+✅
+
+🙌
+
+
+Aug 20, 23:50
+
 .nav__logo {
   display: flex;
   align-items: center;
@@ -1412,6 +2325,2597 @@ footer {
 
 @media (max-width: 480px) {
   /* phones only */
+}
+@media (max-width: 1024px) {
+  header {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1024px) {
+  .nav__links {
+    display: none;
+  }
+
+  .btn__menu {
+    display: block;
+  }
+}
+
+
+
+Today
+👀
+
+✅
+
+🙌
+
+
+
+profile
+Sammie Adams
+
+Aug 21, 00:13
+
+Oh no did I lose you?
+
+
+👀
+
+✅
+
+🙌
+
+
+
+Aug 21, 00:14
+
+You still there Omair?
+
+
+👀
+
+✅
+
+🙌
+
+
+profile
+Aaron - Mentor
+
+Aug 21, 00:26
+
+Hey Sammie :)
+
+
+👀
+
+✅
+
+🙌
+
+
+Aug 21, 00:26
+
+All good?
+
+
+👀
+
+✅
+
+🙌
+
+
+
+profile
+Sammie Adams
+
+Aug 21, 00:44
+
+All good! :) thank you Aaron! Omair is on it!! I am learning SO MUCH!!! I switched devices and it's staying connected now!!
+
+
+
+🙌
+1
+
+👀
+
+✅
+
+🙌
+
+
+profile
+Aaron - Mentor
+
+Aug 21, 00:48
+
+Awesome!
+
+
+👀
+
+✅
+
+🙌
+
+
+profile
+Omair - Mentor
+
+Aug 21, 00:50
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/6487f0a3d4.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Treact</title>
+  </head>
+  <body>
+    <section id="landing">
+      <nav>
+        <div class="row nav__row">
+          <div class="nav__logo">
+            <img
+              class="nav__logo--img"
+              src="./assets/logo.2c489fc453a1783cbadacf914efa3df6.svg"
+              alt="Treact logo"
+            />
+            <div class="nav__logo--title">Treact</div>
+          </div>
+
+          <div class="nav__links">
+            <a href="#" class="nav__link">About</a>
+            <a href="#" class="nav__link">Blog</a>
+            <a href="#" class="nav__link">Pricing</a>
+            <a href="#" class="nav__link">Contact Us</a>
+            <a href="#" class="nav__link login">Login</a>
+            <a href="#" class="nav__link nav__link--primary">Sign Up</a>
+          </div>
+
+          <button
+            type="button"
+            class="btn__menu"
+            onclick="openMenu()"
+            aria-label="Open menu"
+          >
+            <i class="fa-solid fa-bars" aria-hidden="true"></i>
+          </button>
+        </div>
+      </nav>
+      <div class="modal">
+        <button
+          type="button"
+          class="btn__menu btn__menu--close"
+          onclick="closeMenu()"
+          aria-label="Close menu"
+        >
+          <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+        </button>
+
+        <div class="modal__links">
+          <a href="#" class="modal__link">About</a>
+          <a href="#" class="modal__link">Blog</a>
+          <a href="#" class="modal__link">Pricing</a>
+          <a href="#" class="modal__link">Contact Us</a>
+          <a href="#" class="modal__link">Login</a>
+          <a href="#" class="modal__link modal__link--primary">Sign Up</a>
+        </div>
+      </div>
+      <header>
+        <div class="header__description">
+          <h1 class="about-me__info--title">
+            Beautiful React Templates <span class="text--purple">for you.</span>
+          </h1>
+
+          <p class="header__para">
+            Our templates are easy to setup, understand and customize.
+          </p>
+
+          <div class="header__email">
+            <input
+              type="email"
+              class="header__email--input"
+              placeholder="Your E-mail Address"
+            />
+            <button type="button" class="header__email--btn">
+              Get Started
+            </button>
+          </div>
+
+          <p class="header__customers--title">OUR TRUSTED CUSTOMERS</p>
+
+          <img
+            src="./assets/customers-logo-strip.680ac7c2e8ae28161d2c.png"
+            class="header__customers"
+            alt="Trusted customers"
+          />
+        </div>
+        <div class="header__img--wrapper">
+          <img
+            src="./assets/design-illustration-2.6da6a00b20c07c4a9b65d1870679e1b8.svg"
+            class="header__img"
+            alt="Design illustration"
+          />
+        </div>
+      </header>
+    </section>
+
+    <section id="features">
+      <div class="container">
+        <div class="row__narrow">
+          <h4 class="section__tag">FEATURES</h4>
+
+          <h2 class="section__title">
+            We Have Amazing <span class="purple">Service.</span>
+          </h2>
+
+          <div class="section__para">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </div>
+
+          <div class="features">
+            <div class="feature">
+              <div class="feature__row">
+                <figure class="feature__img--wrapper">
+                  <img
+                    src="./assets/shield-icon.daefe14b320b14fbd9cbd18908ac93ec.svg"
+                    class="feature__img"
+                    alt="Security shield"
+                  />
+                </figure>
+
+                <div class="feature__text">
+                  <h2 class="feature__title">Secure</h2>
+
+                  <p class="feature__para">
+                    Lorem ipsum donor amet siti ceali ut enim ad minim veniam,
+                    quis nostrud.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="feature">
+              <div class="feature__row">
+                <figure class="feature__img--wrapper">
+                  <img
+                    src="./assets/support-icon.f9253ffa8cb6ffde5bbaa05eb5136375.svg"
+                    class="feature__img"
+                    alt="Support headset"
+                  />
+                </figure>
+
+                <div class="feature__text">
+                  <h2 class="feature__title">24/7 Support</h2>
+
+                  <p class="feature__para">
+                    Lorem ipsum donor amet siti ceali ut enim ad minim veniam,
+                    quis nostrud.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="feature">
+              <div class="feature__row">
+                <figure class="feature__img--wrapper">
+                  <img
+                    src="/assets/customize-icon.367468c90fd796009b97fbfba67b2c6a.svg"
+                    class="feature__img"
+                    alt="Customization tools"
+                  />
+                </figure>
+
+                <div class="feature__text">
+                  <h2 class="feature__title">Customizable</h2>
+
+                  <p class="feature__para">
+                    Lorem ipsum donor amet siti ceali ut enim ad minim veniam,
+                    quis nostrud.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="feature">
+              <div class="feature__row">
+                <figure class="feature__img--wrapper">
+                  <img
+                    src="/assets/reliable-icon.1367510a8f0a1bec76dc425d25f92f43.svg"
+                    class="feature__img"
+                    alt="Reliable check mark"
+                  />
+                </figure>
+
+                <div class="feature__text">
+                  <h2 class="feature__title">Reliable</h2>
+
+                  <p class="feature__para">
+                    Lorem ipsum donor amet siti ceali ut enim ad minim veniam,
+                    quis nostrud.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="feature">
+              <div class="feature__row">
+                <figure class="feature__img--wrapper">
+                  <img
+                    src="/assets/fast-icon.dbb971a73d4805d2fc3bcdacdb55beba.svg"
+                    class="feature__img"
+                    alt="Fast lightning bolt"
+                  />
+                </figure>
+
+                <div class="feature__text">
+                  <h2 class="feature__title">Fast</h2>
+
+                  <p class="feature__para">
+                    Lorem ipsum donor amet siti ceali ut enim ad minim veniam,
+                    quis nostrud.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="feature">
+              <div class="feature__row">
+                <figure class="feature__img--wrapper">
+                  <img
+                    src="/assets/simple-icon.673b7e1750b2a4ef32907fc164828d00.svg"
+                    class="feature__img"
+                    alt="Simple interface"
+                  />
+                </figure>
+
+                <div class="feature__text">
+                  <h2 class="feature__title">Easy</h2>
+
+                  <p class="feature__para">
+                    Lorem ipsum donor amet siti ceali ut enim ad minim veniam,
+                    quis nostrud.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="quality">
+      <div class="row">
+        <img
+          src="./assets/hero-screenshot-1.40a097b525c2f8c9808e.png"
+          alt="Treact website displayed"
+          class="quality__img"
+        />
+        <div class="quality__description">
+          <h3 class="text--purple">Quality Work</h3>
+
+          <h2 class="quality__title">
+            Designed &amp; Developed by
+            <span class="text--purple">Professionals.</span>
+          </h2>
+
+          <p class="quality__para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quam
+            cupiditate commodi qui excepturi laborum adipisci officiis, corporis
+            possimus. Reiciendis?
+          </p>
+          <button type="button" class="btn">Learn More</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <h1 class="section__title">
+          We have Amazing <span class="text--purple">Service:</span>
+        </h1>
+        <div class="section__para">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </div>
+        <div class="row">
+          <figure class="steps__img--wrapper">
+            <img
+              src="./assets/hero-screenshot-2.241aac1fbc66db29d873.png"
+              class="steps__img"
+              alt="Dashboard Screenshot"
+            />
+            <svg
+              viewBox="0 0 1280 1280"
+              class="steps__grid"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <defs>
+                <path
+                  id="line-of-balls"
+                  d="M55 33.5C44.5 37 35 47.6 32.8 58.3c-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM183 33.5c-15.1 5-25.3 21.6-22.2 36.2 2.5 11.9 13.6 23 25.4 25.5 19.4 4.1 39.5-14.2 37.5-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM311 33.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM439 33.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM567 33.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM695 33.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM823 33.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM951 33.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM1079 33.5c-10.5 3.5-20 14.1-22.2 24.8-2.5 11.7 3.2 24.4 14.2 31.9 10.7 7.4 22.9 7.5 33.7.3 17.7-11.8 20.1-33.8 5.3-48.5-8.5-8.6-20.7-11.9-31-8.5zM1207 33.5c-10.5 3.5-20 14.1-22.2 24.8-2.5 11.7 3.2 24.4 14.2 31.9 10.7 7.4 22.9 7.5 33.7.3 17.7-11.8 20.1-33.8 5.3-48.5-8.5-8.6-20.7-11.9-31-8.5z"
+                ></path>
+              </defs>
+
+              <g fill="rgba(100, 21, 255, 0.15)">
+                <use href="#line-of-balls" transform="translate(0, 0)"></use>
+                <use href="#line-of-balls" transform="translate(0, 100)"></use>
+                <use href="#line-of-balls" transform="translate(0, 200)"></use>
+                <use href="#line-of-balls" transform="translate(0, 300)"></use>
+                <use href="#line-of-balls" transform="translate(0, 400)"></use>
+                <use href="#line-of-balls" transform="translate(0, 500)"></use>
+                <use href="#line-of-balls" transform="translate(0, 600)"></use>
+                <use href="#line-of-balls" transform="translate(0, 700)"></use>
+                <use href="#line-of-balls" transform="translate(0, 800)"></use>
+                <use href="#line-of-balls" transform="translate(0, 900)"></use>
+              </g>
+            </svg>
+          </figure>
+          <div class="steps__description">
+            <div class="section__tag">STEPS</div>
+            <h2 class="section__title">
+              Easy to <span class="text--purple">Get Started.</span>
+            </h2>
+
+            <div class="step">
+              <div class="step__number">01</div>
+              <div class="step__title">Register</div>
+              <p class="step__para">
+                Create an account with us using Google or Facebook.
+              </p>
+            </div>
+
+            <div class="step">
+              <div class="step__number">02</div>
+              <div class="step__title">Download</div>
+              <p class="step__para">
+                Browse and Download the template that you like from the
+                marketplace.
+              </p>
+            </div>
+
+            <div class="step">
+              <div class="step__number">03</div>
+              <div class="step__title">Run</div>
+              <p class="step__para">
+                Follow the instructions to setup and customize the template to
+                your needs.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="values">
+      <div class="row">
+        <img
+          class="values__img"
+          src="./assets/prototype-illustration.21bc4b3f612a2f257c3d361067582485.svg"
+          alt="Prototype illustration"
+        />
+        <div>
+          <div class="section__tag">VALUES</div>
+          <h2 class="section__title">
+            We Always Abide by Our <span class="purple">Principles.</span>
+          </h2>
+          <div class="section__para">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </div>
+          <div class="values__description--wrapper">
+            <div class="value">
+              <div class="value__icon--title">
+                <i
+                  class="fa-solid fa-dollar-sign value__icon value__icon--affordable"
+                  aria-hidden="true"
+                ></i>
+                <div class="value__name">Affordable</div>
+              </div>
+              <div class="value__para">
+                We promise to offer you the best rate we can - at par with the
+                industry standard.
+              </div>
+            </div>
+
+            <div class="value">
+              <div class="value__icon--title">
+                <i
+                  class="fa-solid fa-briefcase value__icon value__icon--professional"
+                  aria-hidden="true"
+                ></i>
+                <div class="value__name">Professionalism</div>
+              </div>
+              <div class="value__para">
+                We assure you that our templates are designed and created by
+                professional designers.
+              </div>
+            </div>
+          </div>
+
+          <button type="button" class="btn">Learn More</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing">
+      <div class="container">
+        <div class="row">
+          <div class="section__tag">pricing</div>
+          <h2 class="section__title">
+            Reasonable &amp; Flexible <span class="purple">Plans.</span>
+          </h2>
+          <p class="section__para">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <div class="plans">
+            <div class="plan">
+              <div class="plan__stripe"></div>
+              <div class="plan__top">
+                <div class="plan__name">PERSONAL</div>
+                <div class="plan__price">$17.99</div>
+                <div class="plan__duration">MONTHLY</div>
+              </div>
+              <div class="plan__middle">
+                <div class="plan__target">For Individuals</div>
+                <p class="plan__feature">30 Templates</p>
+                <p class="plan__feature">7 Landing Pages</p>
+                <p class="plan__feature">12 Internal Pages</p>
+                <p class="plan__feature">Basic Assistance</p>
+              </div>
+              <div class="plan__bottom">
+                <button type="button" class="plan__button">buy now</button>
+              </div>
+            </div>
+
+            <div class="plan">
+              <div class="plan__stripe"></div>
+              <div class="plan__top">
+                <div class="plan__name">BUSINESS</div>
+                <div class="plan__price">$37.99</div>
+                <div class="plan__duration">MONTHLY</div>
+              </div>
+              <div class="plan__middle">
+                <div class="plan__target">For Small Businesses</div>
+                <p class="plan__feature">60 Templates</p>
+                <p class="plan__feature">15 Landing Pages</p>
+                <p class="plan__feature">22 Internal Pages</p>
+                <p class="plan__feature">Priority Assistance</p>
+              </div>
+              <div class="plan__bottom">
+                <button type="button" class="plan__button">buy now</button>
+              </div>
+            </div>
+
+            <div class="plan">
+              <div class="plan__stripe"></div>
+              <div class="plan__top">
+                <div class="plan__name">ENTERPRISE</div>
+                <div class="plan__price">$57.99</div>
+                <div class="plan__duration">MONTHLY</div>
+              </div>
+              <div class="plan__middle">
+                <div class="plan__target">For Large Companies</div>
+                <p class="plan__feature">90 Templates</p>
+                <p class="plan__feature">27 Landing Pages</p>
+                <p class="plan__feature">37 Internal Pages</p>
+                <p class="plan__feature">Personal Assistance</p>
+              </div>
+              <div class="plan__bottom">
+                <button type="button" class="plan__button">buy now</button>
+              </div>
+            </div>
+
+            <svg
+              width="600"
+              height="600"
+              viewBox="0 0 600 600"
+              xmlns="http://www.w3.org/2000/svg"
+              class="plans__blob"
+            >
+              <g transform="translate(300,300)">
+                <path
+                  d="M82,-98.3C129.8,-57.7,208.2,-54.1,229.6,-26.6C251.1,1,215.6,52.5,172.9,74.9C130.2,97.2,80.3,90.4,37.8,107.5C-4.8,124.7,-40,165.7,-63.3,162.3C-86.5,158.8,-97.8,110.9,-109.3,72.2C-120.7,33.5,-132.2,4.1,-140.1,-37.4C-147.9,-79,-152.1,-132.6,-128.1,-177.3C-104.1,-222.1,-52.1,-258,-17.5,-237.2C17.1,-216.4,34.3,-138.9,82,-98.3Z"
+                  fill="#FFB4BC"
+                ></path>
+              </g>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials">
+      <div class="container">
+        <div class="row">
+          <img
+            src="./assets/love-illustration.c759090fa833369ad6ffb6eb19cacb3e.svg"
+            alt=""
+            class="testimonials__img"
+          />
+          <div>
+            <div class="section__tag">testimonials</div>
+            <h2 class="section__title">
+              Our Clients <span class="purple">Love Us.</span>
+            </h2>
+            <p class="section__para">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad
+              minim veniam.
+            </p>
+
+            <div class="testimonial">
+              <div class="testimonial__rating">
+                <i class="fas fa-star" aria-hidden="true"></i>
+                <i class="fas fa-star" aria-hidden="true"></i>
+                <i class="fas fa-star" aria-hidden="true"></i>
+                <i class="fas fa-star" aria-hidden="true"></i>
+                <i class="fas fa-star" aria-hidden="true"></i>
+              </div>
+              <h3 class="testimonial__title">Amazing User Experience</h3>
+              <p class="testimonial__para">
+                Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat non proident, sunt in culpa qui officia. Lorem ipsum
+                dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                minim veniam, quis nostrud exercitation ullamco.
+              </p>
+
+              <div class="testimonial__bottom">
+                <div class="testimonial_profile--wrapper">
+                  <div class="testimonial__profile">
+                    <img
+                      src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3.25&w=512&h=512&q=80"
+                      class="testimonial__img"
+                      alt="Charlotte Hale"
+                    />
+                    <div class="testimonial__details">
+                      <div class="testimonial__name">Charlotte Hale</div>
+                      <div class="testimonial__role">Director, Delos Inc.</div>
+                    </div>
+                  </div>
+                  <div class="testimonial__buttons">
+                    <button
+                      type="button"
+                      class="testimonial__button"
+                      aria-label="Previous testimonial"
+                    >
+                      <svg
+                        fill="none"
+                        stroke="rgb(100, 21, 255)"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="3"
+                        viewBox="0 0 24 24"
+                      >
+                        <path d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
+                      </svg>
+                    </button>
+                    <button
+                      type="button"
+                      class="testimonial__button"
+                      aria-label="Next testimonial"
+                    >
+                      <svg
+                        fill="none"
+                        stroke="rgb(100, 21, 255)"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="3"
+                        viewBox="0 0 24 24"
+                      >
+                        <path d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="start">
+        <div class="container">
+          <div class="row">
+            <svg viewBox="0 0 600 600" class="start__blob--1">
+              <g transform="translate(300,300)">
+                <path d="M153.6,-239C199.1,-209.8,236,-167.2,258.4,-118C280.9,-68.9,288.9,-13.1,281.2,40.4C273.5,93.9,250.1,145.2,214.7,186.1C179.3,226.9,131.9,257.4,80,272.6C28.2,287.8,-28.2,287.8,-80,272.6C-131.9,257.4,-179.3,226.9,-214.7,186.1C-250.1,145.2,-273.5,93.9,-281.2,40.4C-288.9,-13.1,-280.9,-68.9,-258.4,-118C-236,-167.2,-199.1,-209.8,-153.6,-239C-108.1,-268.3,-54.1,-284.1,0,-284.1C54.1,-284.1,108.1,-268.3,153.6,-239Z" fill="rgb(80,17,204)"></path>
+              </g>
+            </svg>
+            <svg viewBox="0 0 600 600" class="start__blob--2">
+              <g transform="translate(300,300)">
+                <path d="M153.6,-239C199.1,-209.8,236,-167.2,258.4,-118C280.9,-68.9,288.9,-13.1,281.2,40.4C273.5,93.9,250.1,145.2,214.7,186.1C179.3,226.9,131.9,257.4,80,272.6C28.2,287.8,-28.2,287.8,-80,272.6C-131.9,257.4,-179.3,226.9,-214.7,186.1C-250.1,145.2,-273.5,93.9,-281.2,40.4C-288.9,-13.1,-280.9,-68.9,-258.4,-118C-236,-167.2,-199.1,-209.8,-153.6,-239C-108.1,-268.3,-54.1,-284.1,0,-284.1C54.1,-284.1,108.1,-268.3,153.6,-239Z" fill="rgb(80,17,204)"></path>
+              </g>
+            </svg>
+            <div class="start__container">
+              <div class="start__row">
+                <div class="start__title">
+                  Developers all over the world are happily using Treact.
+                </div>
+                <div class="start__buttons">
+                  <button class="start__button btn">Get Started</button>
+                  <button class="start__button btn">Contact Us</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <footer>
+      <svg viewBox="0 0 600 600" class="footer__blob--1">
+        <g transform="translate(300,300)">
+          <path
+            d="M153.6,-239C199.1,-209.8,236,-167.2,258.4,-118C280.9,-68.9,288.9,-13.1,281.2,40.4C273.5,93.9,250.1,145.2,214.7,186.1C179.3,226.9,131.9,257.4,80,272.6C28.2,287.8,-28.2,287.8,-80,272.6C-131.9,257.4,-179.3,226.9,-214.7,186.1C-250.1,145.2,-273.5,93.9,-281.2,40.4C-288.9,-13.1,-280.9,-68.9,-258.4,-118C-236,-167.2,-199.1,-209.8,-153.6,-239C-108.1,-268.3,-54.1,-284.1,0,-284.1C54.1,-284.1,108.1,-268.3,153.6,-239Z"
+            fill="rgba(80,17,204)"
+          ></path>
+        </g>
+      </svg>
+      <svg viewBox="0 0 600 600" class="footer__blob--2">
+        <g transform="translate(300,300)">
+          <path
+            d="M153.6,-239C199.1,-209.8,236,-167.2,258.4,-118C280.9,-68.9,288.9,-13.1,281.2,40.4C273.5,93.9,250.1,145.2,214.7,186.1C179.3,226.9,131.9,257.4,80,272.6C28.2,287.8,-28.2,287.8,-80,272.6C-131.9,257.4,-179.3,226.9,-214.7,186.1C-250.1,145.2,-273.5,93.9,-281.2,40.4C-288.9,-13.1,-280.9,-68.9,-258.4,-118C-236,-167.2,-199.1,-209.8,-153.6,-239C-108.1,-268.3,-54.1,-284.1,0,-284.1C54.1,-284.1,108.1,-268.3,153.6,-239Z"
+            fill="rgba(80,17,204)"
+          ></path>
+        </g>
+      </svg>
+      <div class="row footer__row">
+        <div class="footer__columns">
+          <div class="footer__column">
+            <div class="footer__column--title">MAIN</div>
+            <a class="footer__column--link">Blog</a>
+            <a class="footer__column--link">FAQs</a>
+            <a class="footer__column--link">Support</a>
+            <a class="footer__column--link">About Us</a>
+          </div>
+          <div class="footer__column">
+            <div class="footer__column--title">PRODUCT</div>
+            <a class="footer__column--link">Log In</a>
+            <a class="footer__column--link">Personal</a>
+            <a class="footer__column--link">Business</a>
+            <a class="footer__column--link">Team</a>
+          </div>
+          <div class="footer__column">
+            <div class="footer__column--title">PRESS</div>
+            <a class="footer__column--link">Logos</a>
+            <a class="footer__column--link">Events</a>
+            <a class="footer__column--link">Stories</a>
+            <a class="footer__column--link">Office</a>
+          </div>
+          <div class="footer__column">
+            <div class="footer__column--title">TEAM</div>
+            <a class="footer__column--link">Career</a>
+            <a class="footer__column--link">Founders</a>
+            <a class="footer__column--link">Culture</a>
+            <a class="footer__column--link">Onboarding</a>
+          </div>
+          <div class="footer__column">
+            <div class="footer__column--title">LEGAL</div>
+            <a class="footer__column--link">GDPR</a>
+            <a class="footer__column--link">Privacy Policy</a>
+            <a class="footer__column--link">Terms of Service</a>
+            <a class="footer__column--link">Disclaimer</a>
+          </div>
+        </div>
+        <div class="footer__divider"></div>
+        <div class="footer__bottom">
+          <div class="footer__logo">
+            <img
+              src="./assets/logo-light.d9a5d1b5be5ea077b26864fdfc2e96a4.svg"
+              alt=""
+              class="footer__logo--img"
+            />
+            <h5 class="footer__logo--text">Treact Inc.</h5>
+          </div>
+          <div class="footer__copyright">
+            © 2018 Treact Inc. All Rights Reserved.
+          </div>
+          <div class="footer__socials">
+            <a class="footer__social--link">
+              <svg fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14c-.326-.043-1.557-.14-2.857-.14C11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"
+                ></path>
+              </svg>
+            </a>
+            <a class="footer__social--link">
+              <svg fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M22.162 5.656a8.384 8.384 0 01-2.402.658A4.196 4.196 0 0021.6 4c-.82.488-1.719.83-2.656 1.015a4.182 4.182 0 00-7.126 3.814 11.874 11.874 0 01-8.62-4.37 4.168 4.168 0 00-.566 2.103c0 1.45.738 2.731 1.86 3.481a4.168 4.168 0 01-1.894-.523v.052a4.185 4.185 0 003.355 4.101 4.21 4.21 0 01-1.89.072A4.185 4.185 0 007.97 16.65a8.394 8.394 0 01-6.191 1.732 11.83 11.83 0 006.41 1.88c7.693 0 11.9-6.373 11.9-11.9 0-.18-.005-.362-.013-.54a8.496 8.496 0 002.087-2.165z"
+                ></path>
+              </svg>
+            </a>
+            <a class="footer__social--link">
+              <svg fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M21.543 6.498C22 8.28 22 12 22 12s0 3.72-.457 5.502c-.254.985-.997 1.76-1.938 2.022C17.896 20 12 20 12 20s-5.893 0-7.605-.476c-.945-.266-1.687-1.04-1.938-2.022C2 15.72 2 12 2 12s0-3.72.457-5.502c.254-.985.997-1.76 1.938-2.022C6.107 4 12 4 12 4s5.896 0 7.605.476c.945.266 1.687 1.04 1.938 2.022zM10 15.5l6-3.5-6-3.5v7z"
+                ></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
+
+
+
+👀
+
+✅
+
+🙌
+
+
+Aug 21, 00:50
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto+Flex:opsz,wght,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,100..1000,96,468,79,-203,738,514,712&family=Roboto:wdth,wght@87.5,300&display=swap");
+.nav__logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.nav__logo--img {
+  width: 40px;
+  height: 40px;
+}
+
+.nav__logo--text {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+body {
+  background-color: white;
+}
+
+* {
+  font-family: "Lato", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span {
+  color: #242424;
+  text-align: center;
+  line-height: 1.25;
+}
+h1 {
+  font-size: 36px;
+}
+
+p {
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 32px;
+}
+
+.header__description {
+  width: 45%;
+  text-align: center;
+}
+
+.header__img--wrapper {
+  width: 55%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header__img {
+  width: 100%;
+  max-width: 600px;
+}
+
+.header__para {
+  max-width: 400px;
+  margin: 20px auto 0;
+  text-align: center;
+}
+
+.header__email {
+  display: flex;
+  align-items: center;
+  max-width: 448px;
+  width: 100%;
+  margin: 32px auto 0;
+  border: 2px solid #e5e7eb;
+  border-radius: 9999px;
+  padding: 4px;
+}
+
+.header__email--input {
+  border: none;
+  outline: none;
+  flex: 1;
+  min-width: 0;
+  padding: 16px 24px;
+  border-radius: 9999px;
+}
+
+.header__email--btn {
+  border-radius: 9999px;
+  border: none;
+  background-color: #6415ff;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 14px 28px;
+  cursor: pointer;
+  transition: all 300ms ease;
+}
+
+.header__customers--title {
+  margin-top: 48px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #a0aec0;
+  text-align: center;
+  width: 100%;
+}
+
+.header__customers {
+  width: 100%;
+  max-width: 400px;
+  display: block;
+  margin: 16px auto 0;
+  opacity: 0.5;
+}
+
+.header__customers--title {
+  margin-top: 48px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #a0aec0;
+}
+
+.header__customers--title {
+  text-align: center;
+  width: 100%;
+}
+
+.header__customers {
+  width: 100%;
+  max-width: 400px;
+  display: block;
+  margin: 16px auto 0;
+  opacity: 0.5;
+}
+
+li {
+  list-style: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.container {
+  padding: 50px 0;
+}
+
+.testimonial_profile--wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.testimonial__buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.row {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  gap: 8px;
+  padding: 0 12px;
+}
+.text--purple {
+  color: #6030b1;
+}
+
+section:nth-child(even) {
+  background-color: #f8f8f8;
+}
+
+.section__title {
+  margin-bottom: 20px;
+}
+
+#quality {
+  text-align: center;
+}
+
+#quality .row {
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row-reverse;
+}
+
+.quality__img {
+  width: 50%;
+}
+.quality__decription {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  /* align-items: center; */
+}
+.quality__description * {
+  text-align: left;
+}
+
+.quality__title {
+  font-size: 48px;
+}
+
+.quality__para {
+  max-width: 600px;
+  /* margin: 16px auto 0; */
+  line-height: 1.5;
+}
+
+.btn {
+  background-color: #6415ff;
+  padding: 12px 32px;
+  border: none;
+  border-radius: 500px;
+  font-size: 14px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 32px;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.feature {
+  width: 30%;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.feature__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section__para {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.feature__img--wrapper {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #f8f8f8;
+  border: 1px solid #e5e7eb;
+}
+.feature__text {
+  width: calc(100% - 90px);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.value__icon--affordable {
+  color: rgb(99, 230, 190);
+}
+
+.value__icon--professional {
+  color: rgb(230, 122, 99);
+}
+
+.section__tag {
+  font-size: 16px;
+
+  color: #6415ff;
+
+  letter-spacing: 1.6px;
+
+  font-weight: 700;
+
+  text-transform: uppercase;
+
+  text-align: center;
+}
+
+.purple {
+  color: #6415ff;
+}
+
+span.text--purple {
+  color: #6415ff;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.step__number {
+  color: #cbd5e0;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1;
+}
+.step__title {
+  font-weight: 600;
+  font-size: 20px;
+  color: #243e63;
+  line-height: 1;
+}
+.step__para {
+  font-size: 14px;
+  color: #718096;
+  margin-top: 12px;
+  font-weight: 500;
+  line-height: 2;
+}
+.step__number {
+  color: #cbd5e0;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1;
+}
+.step__title {
+  font-weight: 600;
+  font-size: 20px;
+  color: #243e63;
+  line-height: 1;
+}
+.step__para {
+  font-size: 14px;
+  color: #718096;
+  margin-top: 12px;
+  font-weight: 500;
+  line-height: 2;
+}
+.step__number {
+  color: #cbd5e0;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1;
+}
+.step__title {
+  font-weight: 600;
+  font-size: 20px;
+  color: #243e63;
+  line-height: 1;
+}
+.step__para {
+  font-size: 14px;
+  color: #718096;
+  margin-top: 12px;
+  font-weight: 500;
+  line-height: 2;
+}
+.section__tag {
+  font-size: 16px;
+  color: #6415ff;
+  letter-spacing: 1.6px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+#values .section__title {
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+.purple {
+  color: #6415ff;
+}
+.section__para {
+  font-size: 18px;
+  font-weight: 500;
+  color: #7c8ba1;
+  line-height: 1.625;
+}
+.value__name {
+  margin-left: 12px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #243e63;
+}
+.value__para {
+  margin-top: 16px;
+  line-height: 1.625;
+  color: #718096;
+}
+.value__name {
+  margin-left: 12px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #243e63;
+}
+.value__para {
+  margin-top: 16px;
+  line-height: 1.625;
+  color: #718096;
+}
+.btn {
+  background-color: #6415ff;
+  padding: 12px 32px;
+  border: none;
+  border-radius: 500px;
+  font-size: 14px;
+  color: #fff;
+  font-weight: bold;
+  transition: all 300ms ease;
+  cursor: pointer;
+}
+.section__tag {
+  font-size: 16px;
+  color: #6415ff;
+  letter-spacing: 1.6px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.header__img--wrapper {
+  display: flex;
+
+  justify-content: flex-end;
+}
+
+.plan:nth-child(1) .plan__stripe,
+.plan:nth-child(1) .plan__button {
+  color: #f7fafc;
+  background: linear-gradient(
+    115deg,
+    rgb(56, 178, 172) 0%,
+    rgb(129, 230, 217) 100%
+  );
+}
+.plans {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+.plans {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  color: #243e63;
+}
+.plan:nth-child(odd) .plan__name,
+.plan:nth-child(odd) .plan__price,
+.plan:nth-child(odd) .plan__target {
+  color: #1a202c;
+}
+
+.plan:nth-child(odd) .plan__name,
+.plan:nth-child(odd) .plan__price,
+.plan:nth-child(odd) .plan__target {
+  color: #1a202c;
+}
+
+.plan:nth-child(odd) .plan__duration {
+  color: #a0aec0;
+}
+.plan:nth-child(odd) .plan__name,
+.plan:nth-child(odd) .plan__price,
+.plan:nth-child(odd) .plan__target {
+  color: #1a202c;
+}
+.plan__feature {
+  margin-top: 20px;
+  font-weight: 500;
+  color: #718096;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.plan:nth-child(2) .plan__button {
+  color: #6415ff;
+  background-color: #f7fafc;
+}
+
+.plan:nth-child(3) .plan__stripe,
+.plan:nth-child(3) .plan__button {
+  color: #f7fafc;
+  background: linear-gradient(
+    115deg,
+    rgb(245, 101, 101) 0%,
+    rgb(254, 178, 178) 100%
+  );
+}
+
+.plan__button {
+  background-color: rgb(100, 21, 255);
+  color: rgb(247, 250, 252);
+  width: 100%;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transition: all 300ms ease;
+}
+
+.plan:nth-child(2) {
+  background: linear-gradient(
+    135deg,
+    rgb(76, 81, 191) 0%,
+    rgb(102, 126, 234) 100%
+  );
+}
+
+.plan:nth-child(2) .plan__name,
+.plan:nth-child(2) .plan__price,
+.plan:nth-child(2) .plan__target,
+.plan:nth-child(2) .plan__duration,
+.plan:nth-child(2) .plan__feature {
+  color: #f7fafc;
+}
+
+.plans svg {
+  z-index: -10;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transform: translateX(-50%) translateY(50%) scaleX(1) scaleY(1);
+  height: 256px;
+  width: 256px;
+  opacity: 0.25;
+}
+.plan {
+  position: relative;
+  margin-top: 4rem;
+  display: flex;
+  width: 100%;
+  max-width: 24rem;
+  flex-direction: column;
+  border-radius: 0.5rem;
+  background-color: rgb(255 255 255);
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-right: 2rem;
+  padding-top: 0.5rem;
+  text-align: center;
+  color: rgb(26 32 44);
+  box-shadow:
+    rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+.plan__top {
+  display: flex;
+  flex-direction: column;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-transform: uppercase;
+  line-height: 1.625;
+}
+.plan__middle {
+  margin-left: -2rem;
+  margin-right: -2rem;
+  display: flex;
+  flex: 1 1 0%;
+  flex-direction: column;
+  border-top-width: 2px;
+  border-bottom-width: 2px;
+  padding: 2rem;
+}
+
+.plan__bottom {
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.section__tag {
+  font-size: 16px;
+  color: #6415ff;
+  letter-spacing: 1.6px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.quality__description,
+.quality__img--wrapper,
+.steps__description,
+.steps__img--wrapper,
+.values__description,
+.values__img,
+.testimonials__description,
+.testimonials__img {
+  width: 50%;
+  /* max-width: 448px; */
+}
+
+.section__para {
+  font-size: 18px;
+  font-weight: 500;
+  color: #7c8ba1;
+  line-height: 1.625;
+}
+
+div {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+.fa-star {
+  color: rgb(246 173 85);
+  display: inline-block;
+  height: 1.25rem;
+  width: 1.25rem;
+}
+.testimonial__title {
+  color: #4a5568;
+  line-height: 1.625;
+  margin-top: 1rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  color: #243e63;
+}
+.testimonial__para {
+  margin-bottom: 32px;
+}
+
+.testimonial__para {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  font-weight: 500;
+  line-height: 1.625;
+  font-size: 16px;
+  color: rgb(74 85 104);
+}
+.testimonial__img {
+  height: 64px;
+  width: 64px;
+}
+.testimonial__img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.testimonial__name {
+  color: rgb(74, 85, 104);
+  line-height: 1.625;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+.testimonial__role {
+  color: rgb(124, 139, 161);
+  font-weight: 500;
+  line-height: 1.5;
+}
+.testimonial__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  background: #edf2f7;
+  border: none;
+  border-radius: 50%;
+  margin: 0 12px;
+  transition: all 300ms ease;
+}
+
+.testimonial__button svg {
+  width: 24px;
+  height: 24px;
+}
+.start__title {
+  color: rgb(247, 250, 252);
+  font-size: 30px;
+  background-color: rgb(100, 21, 255);
+  padding: 16px 32px;
+  border-radius: 8px;
+  font-weight: 700;
+  line-height: 1.5;
+  z-index: 2;
+}
+
+/* NAVIGATION BAR */
+
+nav {
+  height: 100px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+}
+
+.nav__logo--img {
+  width: 40px;
+  height: 40px;
+}
+
+.nav__logo--text {
+  font-size: 24px;
+  font-weight: 900;
+  color: #243e63;
+}
+
+.nav__links {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.nav__link {
+  color: #243e63;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.nav__link--primary {
+  background-color: #6415ff;
+  color: white;
+  padding: 12px 32px;
+  border-radius: 9999px;
+}
+
+.nav__links {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.nav__link {
+  color: #242424;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.nav__link--primary {
+  background-color: #6030b1;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 50px;
+}
+
+nav {
+  height: 100px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__link--list {
+  display: flex;
+}
+
+.nav__link--anchor {
+  margin: 0 12px;
+  color: #242424;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.nav__link--anchor-primary {
+  background-color: #6030b1;
+  padding: 8px 20px;
+  border-radius: 50px;
+  color: white;
+  transition: all 300ms ease;
+}
+
+.nav__link--anchor-primary:hover {
+  background-color: #4e2599;
+  transition: background-color 0.3s ease;
+}
+
+.btn__menu {
+  display: none;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 378px;
+  margin: 24px 16px;
+  padding: 32px;
+  background-color: white;
+  border: 1px solid rgb(229, 231, 235);
+  border-radius: 8px;
+  z-index: 100;
+  visibility: hidden;
+  opacity: 0;
+  transform: translateX(300%);
+  transition: all 300ms ease;
+}
+
+.menu--open .modal {
+  visibility: visible;
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.modal__links {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal__link {
+  color: #1a202c;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 8px 0;
+}
+
+.btn__menu--close {
+  position: fixed;
+  top: 24px;
+  right: 18px;
+}
+
+.personal__logo {
+  font-size: 24px;
+  color: #6030b1;
+  margin: 0 12px;
+  font-weight: bold;
+}
+
+.about-me__img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+
+/* ABOUT ME */
+
+#about-me {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-me__info {
+  display: flex;
+  flex-direction: column;
+}
+.about-me__infor--container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-me__picture--mask {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 8px 16px rgba(0, 0, 0.16);
+  margin-bottom: 28px;
+}
+
+.about-me__picture {
+  width: 100%;
+
+  /*Improving my own picture*/
+  transform: scale(1.5);
+  padding-top: 8px;
+}
+
+.about-me__info--title {
+  margin-bottom: 16px;
+}
+
+.about-me__info--title {
+  margin-bottom: 16px;
+}
+
+.header__para {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.head--description {
+  text-align: center;
+}
+
+.about-me__info--para {
+  font-size: 28px;
+  margin-bottom: 28px;
+}
+
+.about-me__link {
+  font-size: 20px;
+  color: #242424;
+  text-decoration: none;
+  padding: 0 16px;
+}
+
+.about-me__img--container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.about-me__img {
+  width: 100%;
+}
+
+/*TECH - STACK*/
+
+.language__img {
+  width: 100%;
+  max-width: 100px;
+  transition: all 300ms ease;
+}
+
+.language__img:hover .language__img {
+  filter: brightness(80%);
+  opacity: 0.86;
+  transform: scale(0.9);
+}
+
+.language {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.language__img--wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 16px;
+}
+
+.language__list {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.language__name {
+  position: absolute;
+  bottom: 0;
+  transform: scale(0);
+  transition: all 300ms;
+  font-size: 20px;
+  opacity: 0;
+}
+
+.language:hover .language__name {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.language__img:hover {
+  filter: grayscale(100%);
+}
+
+.language {
+  width: 25%;
+}
+
+.language__img--wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 16px;
+}
+
+.language__list {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.language__name {
+  position: absolute;
+  bottom: 0;
+}
+
+.language__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.language {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.language__name {
+  position: static;
+}
+
+/* remove absolute */
+
+.language i {
+  font-size: 64px;
+}
+
+.feature__title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+}
+
+/* PROJECTS */
+
+.project {
+  margin-bottom: 135px;
+}
+
+.project:last-child {
+  margin-bottom: 40px;
+}
+
+.project__img {
+  width: 100%;
+  transition: all 500ms ease;
+}
+
+.project__wrapper {
+  display: flex;
+  box-shadow: 0 20px 80px rgba(0, 0, 0, 0.45);
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.project__wrapper:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #1c1d25;
+  opacity: 0;
+  transition: opacity 450ms ease;
+  z-index: 2;
+}
+
+.project:hover .project__wrapper:before {
+  opacity: 0.7;
+}
+
+.project:hover .project__img {
+  transform: scale(1.07);
+  filter: blur(5px);
+}
+
+.project:hover .project__description {
+  opacity: 1;
+}
+
+.project__list {
+  padding-top: 40px;
+}
+
+.project__description {
+  position: absolute;
+  top: 50%;
+  left: 90px;
+  transform: translateY(-50%);
+  max-width: 550px;
+  z-index: 3;
+  opacity: 0;
+  transition: opacity 300ms ease;
+}
+
+.project__description--title {
+  font-size: 40px;
+}
+
+.project__description--para {
+  margin: 16px 0;
+}
+
+.project__description--link {
+  font-size: 20px;
+  margin-right: 16px;
+  text-decoration: none;
+}
+
+.project {
+  margin-bottom: 135px;
+}
+
+.project:last-child {
+  margin-bottom: 40px;
+}
+
+.project__img {
+  width: 100%;
+  transition: all 500ms ease;
+}
+
+.project__wrapper {
+  display: flex;
+  box-shadow: 0 20px 80px rgba(0, 0, 0, 0.45);
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.project__wrapper:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #1c1d25;
+  opacity: 0;
+  transition: opacity 450ms ease;
+  z-index: 2;
+}
+
+.project:hover .project__wrapper:before {
+  opacity: 0.7;
+}
+
+.project:hover .project__img {
+  transform: scale(1.07);
+  filter: blur(5px);
+}
+
+.project:hover .project__description {
+  opacity: 1;
+}
+
+.project__list {
+  padding-top: 40px;
+}
+
+.project__description {
+  position: absolute;
+  top: 50%;
+  left: 90px;
+  transform: translateY(-50%);
+  max-width: 550px;
+  z-index: 3;
+  opacity: 0;
+  transition: opacity 300ms ease;
+}
+
+.project__description--title {
+  font-size: 40px;
+}
+
+.project__description--para {
+  margin: 16px 0;
+}
+
+.project__description--link {
+  font-size: 20px;
+  margin-right: 16px;
+  text-decoration: none;
+}
+
+.project {
+  margin-bottom: 135px;
+}
+
+.project:last-child {
+  margin-bottom: 40px;
+}
+
+.project__img {
+  width: 100%;
+  transition: all 500ms ease;
+}
+
+.project__wrapper {
+  display: flex;
+  box-shadow: 0 20px 80px rgba(0, 0, 0, 0.45);
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.project__wrapper:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #1c1d25;
+  opacity: 0;
+  transition: opacity 450ms ease;
+  z-index: 2;
+}
+
+.project:hover .project__wrapper:before {
+  opacity: 0.7;
+}
+
+.project:hover .project__img {
+  transform: scale(1.07);
+  filter: blur(5px);
+}
+
+.project:hover .project__description {
+  opacity: 1;
+}
+
+.project__list {
+  padding-top: 40px;
+}
+
+.project__description {
+  position: absolute;
+  top: 50%;
+  left: 90px;
+  transform: translateY(-50%);
+  max-width: 550px;
+  z-index: 3;
+  opacity: 0;
+  transition: opacity 300ms ease;
+}
+
+.project__description--title {
+  font-size: 40px;
+}
+
+.project__description--para {
+  margin: 16px 0;
+}
+
+.project__description--link {
+  font-size: 20px;
+  margin-right: 16px;
+  text-decoration: none;
+}
+.project {
+  margin-bottom: 135px;
+}
+
+.project:last-child {
+  margin-bottom: 40px;
+}
+
+.project__img {
+  width: 100%;
+  transition: all 500ms ease;
+}
+
+.project__wrapper {
+  display: flex;
+  box-shadow: 0 20px 80px rgba(0, 0, 0, 0.45);
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.steps__img--wrapper {
+  display: flex;
+  position: relative;
+  width: 50%;
+}
+
+.steps__img {
+  z-index: 2;
+  width: 100%;
+}
+
+.steps__grid {
+  position: absolute;
+  bottom: -100px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 10rem;
+  height: 10rem;
+  opacity: 0.8;
+  z-index: -10;
+  color: rgb(100, 21, 255); /* currentColor will inherit this */
+  fill: currentColor;
+}
+
+.project__wrapper:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #1c1d25;
+  opacity: 0;
+  transition: opacity 450ms ease;
+  z-index: 2;
+}
+
+.project:hover .project__wrapper:before {
+  opacity: 0.7;
+}
+
+.project:hover .project__img {
+  transform: scale(1.07);
+  filter: blur(5px);
+}
+
+#values {
+  margin: 35px 0;
+}
+
+#values .row {
+  flex-direction: row-reverse;
+}
+
+.project:hover .project__description {
+  opacity: 1;
+}
+
+.values__description--wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.project__list {
+  padding-top: 40px;
+}
+
+.project__description {
+  position: absolute;
+  top: 50%;
+  left: 90px;
+  transform: translateY(-50%);
+  max-width: 550px;
+  z-index: 3;
+  opacity: 0;
+  transition: opacity 300ms ease;
+}
+
+#pricing .row {
+  flex-direction: column;
+}
+
+.value__icon--title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.project__description--title {
+  font-size: 40px;
+}
+
+.project__description--para {
+  margin: 16px 0;
+}
+
+.project__description--link {
+  font-size: 20px;
+  margin-right: 16px;
+  text-decoration: none;
+}
+
+.project__description--title,
+.project__description--sub-title,
+.project__description--para,
+.project__description--link {
+  text-align: left;
+  color: #fff;
+}
+
+/*FOOTER */
+
+.footer__row {
+  flex-direction: column;
+}
+
+footer {
+  padding: 96px 32px;
+  background-color: rgb(100, 21, 255);
+  margin-bottom: -32px;
+  position: relative;
+  overflow: hidden;
+}
+.footer__columns {
+  margin-top: -48px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer__column {
+  margin-top: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  z-index: 2;
+}
+.footer__column--title {
+  font-weight: 700;
+  color: #f7fafc;
+  line-height: 1.5;
+}
+.footer__column--link {
+  color: #f7fafc;
+  font-size: 14px;
+  margin-top: 12px;
+  line-height: 1.5;
+  font-weight: 500;
+  position: relative;
+  cursor: pointer;
+}
+.footer__column--link:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  height: 2px;
+  width: 100%;
+  background: #fff;
+  transition: all 300ms ease;
+  opacity: 0;
+}
+.footer__column--link:hover:after {
+  opacity: 1;
+}
+.footer__column--link:nth-child(2) {
+  margin-top: 24px;
+}
+.footer__divider {
+  width: 100%;
+  height: 2px;
+  margin: 64px 0;
+  background: rgb(116, 44, 255);
+}
+.footer__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__logo {
+  display: flex;
+  align-items: center;
+}
+.footer__logo--img {
+  height: 32px;
+  width: 32px;
+}
+.footer__logo--text {
+  font-size: 20px;
+  color: #f7fafc;
+  font-weight: 900;
+  margin-left: 8px;
+  letter-spacing: 0.05em;
+}
+.footer__socials {
+  display: flex;
+  align-items: center;
+  margin-left: -16px;
+}
+.footer__social--link svg {
+  height: 16px;
+  width: 16px;
+}
+.footer__social--link {
+  margin-left: 16px;
+  padding: 8px;
+  background: #f7fafc;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  z-index: 2;
+  cursor: pointer;
+  transition: all 300ms ease;
+}
+.footer__social--link:hover {
+  background-color: rgba(203, 213, 224);
+}
+.footer__copyright {
+  color: #cbd5e0;
+  font-weight: 500;
+}
+.footer__blob--1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 320px;
+  height: 320px;
+  transform: translateX(-80px) translateY(-128px);
+  z-index: 1;
+  opacity: 0.5;
+}
+.footer__blob--2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 320px;
+  height: 320px;
+  transform: translateX(128px) translateY(192px);
+  z-index: 1;
+  opacity: 0.5;
+}
+
+main {
+  margin-bottom: 96px;
+}
+
+.start__container {
+  padding: 96px 0;
+  width: 100%;
+  background-color: rgb(100, 21, 255);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.start__row {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1024px;
+  padding: 0 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.start__title,
+.start__buttons {
+  width: 50%;
+}
+.start__buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+.start__title {
+  color: #f7fafc;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.5;
+  z-index: 2;
+}
+.start__button {
+  padding: 20px 40px;
+  border-radius: 500px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #f7fafc;
+  line-height: 1.5;
+  letter-spacing: 0.025;
+  margin: 1px;
+  z-index: 2;
+}
+.start__button:nth-child(1) {
+  background: #f56565;
+  box-shadow:
+    rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  margin-right: 32px;
+  transition: all 300ms ease;
+}
+.start__button:hover:nth-child(1) {
+  background-color: rgba(229, 62, 62);
+}
+.start__button:nth-child(2) {
+  border: 1px solid rgb(160, 174, 192);
+  transition: all 300ms ease;
+}
+.start__button:hover:nth-child(2) {
+  background-color: rgba(247, 250, 252);
+  color: rgba(100, 21, 255);
+}
+#start .row {
+  position: relative;
+  overflow: hidden;
+}
+.start__blob--1 {
+  position: absolute;
+  bottom: 0px;
+  left: 84px;
+  height: 20rem;
+  width: 20rem;
+  transform: translate(-5rem, 8rem);
+  color: rgb(80 17 204);
+  opacity: 0.5;
+}
+.start__blob--2 {
+  position: absolute;
+  top: 0px;
+  right: 84px;
+  height: 20rem;
+  width: 20rem;
+  transform: translate(5rem, -16rem);
+  color: rgb(80 17 204);
+  opacity: 0.5;
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  /* tablets only */
+  .row {
+    flex-direction: column;
+  }
+
+  #quality .row,
+  #steps .row,
+  #values .row,
+  #testimonials .row,
+  #start .row {
+    flex-direction: column;
+  }
+
+  .plans {
+    flex-direction: column;
+    align-items: center;
+  }
+  .row figure {
+    width: 100%;
+  }
+
+  .nav__row {
+    flex-direction: row;
+  }
+
+  .values__description--wrapper {
+    flex-direction: column;
+  }
+
+  .row img {
+    width: 100%;
+  }
+
+  .feature {
+    width: 50%;
+  }
+
+  .header__img--wrapper {
+    width: 100%;
+  }
+  .header__description {
+    width: 100%;
+  }
+  .start__row {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  /* phones only */
+  .row {
+    flex-direction: column;
+  }
+  .start__row {
+    flex-direction: column;
+  }
+  .nav__row {
+    flex-direction: row;
+  }
+  .header__description {
+    width: 100%;
+  }
+  .header__img--wrapper {
+    width: 100%;
+  }
+  .values__description--wrapper {
+    flex-direction: column;
+    width: 80%;
+  }
+  #quality .row,
+  #steps .row,
+  #values .row,
+  #testimonials .row,
+  #start .row {
+    flex-direction: column;
+  }
+
+  .plans {
+    flex-direction: column;
+    align-items: center;
+  }
+  .feature {
+    width: 100%;
+  }
+
+  .row figure {
+    width: 100%;
+  }
+
+  .row img {
+    width: 100%;
+  }
 }
 @media (max-width: 1024px) {
   header {
