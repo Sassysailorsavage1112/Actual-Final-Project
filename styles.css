@@ -4616,6 +4616,7 @@ footer {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  width: 100%;
 }
 .footer__column {
   margin-top: 48px;
